@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Note
+1. node_modules -> Your project dependencies files store here.. if you delete the node_modules directory you will unable to run your project. Our project works because of node_modules, it is a vendor folder.
+2. public -> index.html is rendering in screen
+3. src -> css, js, img etc file store here
+4. package.json -> all the information about project like modules, dependencies etc is gonna be listed here.
+
 ## Available Scripts
 
 In the project directory, you can run:
