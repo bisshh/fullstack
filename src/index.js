@@ -1,8 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//Components
+import Header from './components/header';
+
 const App = () =>{
-    return React.createElement('h1',{className:'title'},React.createElement('div')) //first argument is a tag, second argument is class or function and last is a content
+    return (
+        <div>
+            <Header/>
+        </div>
+    )   
 }
 
 ReactDOM.render(<App/>, document.querySelector('#root'));
